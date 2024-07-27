@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.CodeMirror {
+  min-height: calc(100vh - 450px);
+  font-size: 16px;
+  line-height: 1.8;
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid gainsboro;
+  padding: 0 0px;
+  border-right: 0;
+  font-weight: 400 !important;
+}
+
+.CodeMirror-gutter {
+  background: white;
+}
+
+.sc1::-webkit-scrollbar {
+  width: 10px;
+  height: 4px;
+}
+
+.sc1::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+}
+
+.sc1::-webkit-scrollbar-thumb {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.w-md-editor-toolbar > ul > li > button {
+  color: gray;
+  padding: 10px;
+  height: unset;
+  border-radius: 50%;
+}
+
+.w-md-editor-toolbar > ul > li > button > svg {
+  width: 20px;
+  height: 20px;
+}
+
+.w-md-editor-toolbar {
+  height: 60px !important;
+}
+
+.w-md-editor {
+  height: 100% !important;
+  overflow-x: auto;
+}
+
+.w-md-editor-preview > p, .wmde-markdown {
+  font-family: "Ubuntu Mono" !important;
+  color: black !important;
+  background-color: white !important;
+}
+.w-md-editor-preview {
+  background-color: white !important;
+}
+.modal-explanation .w-md-editor-toolbar > ul > li > button > svg {
+  width: 15px;
+  height: 15px;
+}
+
+.wmde-markdown pre > code, .wmde-markdown table th, .wmde-markdown table td {
+  color: wheat !important;
+}
+
+ .w-md-editor-toolbar {
+  height: 80px !important;
+  background-color: white !important;
+  padding: 0 !important;
+}
+
+.problemPage {
+  height: calc(100vh - 85px);
+  /* overflow: hidden; */
+}
+
+.w-md-editor-area {
+  background-color: white !important;
+}
+
+.nextui-c-ftJsHY {
+  display: unset !important;
+}
+
+.w-md-editor-text-pre {
+  border-radius: 0 !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.textarea,
+.w-md-editor-text-input {
+  -webkit-text-fill-color: unset !important;
+  overflow-y: auto !important;
+  scrollbar-width: none !important;
+  /* Firefox */
+  -ms-overflow-style: none !important;
+  background-color: white !important;
+  color: black !important;
+}
+
+.w-md-editor-text-input::-webkit-scrollbar,
+.textarea::-webkit-scrollbar {
+  /* WebKit */
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.wmde-markdown ul {
+  list-style-type: disc !important;
+  font-family: "Mukta", sans-serif !important;
+}
+
+
+.dot {
+  height: 4px;
+  width: 4px;
+  background-color: #333; /* Or any color you prefer */
+  border-radius: 50%;
+  margin: 2px 0;
+}
