@@ -1,5 +1,5 @@
 # CodeNex
-
+![Contributors](https://img.shields.io/github/contributors/akibhaider/CodeNex?color=darkgreen) ![Forks](https://img.shields.io/github/forks/akibhaider/CodeNex?style=social) ![Stargazers](https://img.shields.io/github/stars/akibhaider/CodeNex?style=social) ![Issues](https://img.shields.io/github/issues/akibhaider/CodeNex?color=brown) 
 
 ## Features
 
